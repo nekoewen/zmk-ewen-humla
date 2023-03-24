@@ -1,0 +1,8 @@
+file_format: "1"
+id: humla
+name: Humla
+type: shield
+url: https://github.com/jimmericks/humla
+requires: [pro_micro]
+features:
+  - keys
