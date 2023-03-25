@@ -21,14 +21,7 @@
  * Z  X  C  V  B       N  M  ,  .  /
  */
 
-&sl {
-    release-after-ms = <1000>;
-};
-&sk {
-    release-after-ms = <1000>;
-};
-
-/ {
+ / {
     combos {
         compatible = "zmk,combos";
         combo_bc {
