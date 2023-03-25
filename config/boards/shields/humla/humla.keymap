@@ -10,10 +10,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
-&kscan0 {
-    debounce-period = <15>;
-};
-
 /*
  * 0  1  2  3  4       5  6  7  8  9
  * Q  W  E  R  T       Y  U  I  O  P
@@ -88,7 +84,7 @@
             >;
         };
 
-        nav_layer {
+        sym_layer {
             label = "Sym";
             bindings = <
                 &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT       &kp CARET &kp AMPS  &kp STAR  &kp LPAR  &kp RPAR
