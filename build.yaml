@@ -15,5 +15,3 @@
 include:
   - board: nice_nano_v2
     shield: humla
-  - board: nice_nano_v2
-    shield: reviung41
