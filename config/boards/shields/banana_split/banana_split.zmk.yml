@@ -1,0 +1,10 @@
+file_format: "1"
+id: banana_split
+name: Banana Split
+type: shield
+url: https://github.com/dbostian/bananasplit
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - banana_split
